@@ -1,0 +1,40 @@
+.tovar{
+    border: 2px solid grey;
+    width: 550px;
+    height: 300px;
+    display: flex;
+   margin: 20px 0px;
+}
+.img{
+    height: 300px;
+    width:250px;
+   
+}
+.image{
+    height: 297px;
+    width:250px;
+    border: 1px solid rgba(76, 74, 74, 0.304);
+}
+.riht_side{
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.name{
+    font-size: 24px;
+   overflow: hidden;
+   width: 290px;
+   border: 1px solid blue;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.x{
+    border: 1px solid pink;
+}

@@ -1,0 +1,25 @@
+form{
+    border: 1px solid red;
+    float: left;
+    padding: 10px;
+    background-color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    
+}
+button{
+    background-color: rgb(72, 14, 72);
+    padding: 7px;
+    border-radius: 10px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 13px;
+    border:0;
+}
+button:hover{
+    box-shadow: 0px 0px 4px navy;
+}
+input:focus{
+    box-shadow: 0px 0px 5px 1px navy;
+}
