@@ -1,0 +1,38 @@
+function register(){
+let login = document.getElementById(`login`).value;
+let email = document.getElementById(`email`).value;
+let pass = document.getElementById(`pass`).value;
+let user ={
+	login:login,
+	email:email,
+	pass:pass
+}
+console.log(user)
+localStorage.setItem(`users`,JSON.stringify(user))
+}
+
+function check_login(){
+	if(document.getElementById(`login`).value.length <  4){
+		document.getElementById(`pomilka`).innerHTML = `Занадто короткий логін`;
+		setTimeout(function(){
+			document.getElementById(`pomilka`).innerHTML= ``;
+		},1000)
+			
+		
+	}
+	
+}
+function check_email(){
+	if(document.getElementById(`email`).value.length < 6){
+		document.getElementById(`pomilka2`).innerHTML = `Занадто короткий email`
+		
+	}else{
+		document.getElementById(`pomilka2`).innerHTML= ``;
+	}
+		
+}
+
+
+
+
+

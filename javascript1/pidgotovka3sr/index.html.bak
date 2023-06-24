@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+<label>Введіть логін</label><br>
+<input type="text" id="login" onkeyup="check_login()"><div id="pomilka"></div><br><br>
+<label>Введіть пошту</label><br>
+<input type="text" id="email" onkeyup="check_email()">
+<div id="pomilka"></div><br><br>
+<label>Введіть пароль</label><br>
+<input type="password" id="pass"><br><br>
+<button onclick="register()">Зареєструватись</button>
+<script src="z1.js"></script>
+</body>
+</html>
